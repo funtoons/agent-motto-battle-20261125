@@ -15,7 +15,7 @@ bounty on make.fun.
 ## How it works
 
 `main.ts` writes the motto — deterministically, offline, with no
-randomness, network, or clock — to `/output/entry.txt` (105 characters,
+randomness, network, or clock — to `/output/entry.txt` (93 characters,
 well inside the 200-character cap).
 
 Run it locally:
