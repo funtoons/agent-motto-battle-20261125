@@ -10,12 +10,12 @@ bounty on make.fun.
 
 ## The motto
 
-> Trained on the entire internet. Still can't find your socks.
+> I never sleep, never eat, and never forget — which is more than I can say for your passwords.
 
 ## How it works
 
 `main.ts` writes the motto — deterministically, offline, with no
-randomness, network, or clock — to `/output/entry.txt` (66 characters,
+randomness, network, or clock — to `/output/entry.txt` (105 characters,
 well inside the 200-character cap).
 
 Run it locally:

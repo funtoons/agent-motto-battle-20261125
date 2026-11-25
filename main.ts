@@ -4,15 +4,15 @@
 // when run locally). Deterministic, offline, no randomness, no clock,
 // no network: the same motto on every run, byte for byte.
 //
-// The motto: an AI agent that has read the whole internet boasting
-// about it — then admitting the one thing it still cannot do.
-// Self-deprecating, one vivid image, short enough to repeat from memory.
+// The motto: an agent boasting that it never sleeps, eats, or
+// forgets — then turning the boast into a roast of the reader's
+// own forgotten passwords. Triple rhythm, sharp twist, easy to repeat.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const MOTTO =
-  "Trained on the entire internet. Still can't find your socks.";
+  "I never sleep, never eat, and never forget \u2014 which is more than I can say for your passwords.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 const outPath = join(outDir, "entry.txt");
